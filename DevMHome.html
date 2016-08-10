@@ -1,0 +1,468 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="shortcut icon" type="image/png" href="https://i.imgur.com/vBWZNbQ.png"/>
+<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<title>Main DevM - Home</title>
+<style name="main">
+body {
+    margin:0;
+    font-family: Calibri;
+    
+}
+
+p {
+    font-family: Open Sans;
+    color: gray;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1 {
+    font-family: Bree Serif;
+    color: black;
+    background-color: lightgray;
+}
+
+h2 {
+    font-family: Bree Serif;
+    color: #2E74B5;
+}
+h3 {
+    font-family: Bree Serif;
+    color: grey;
+}
+a.linkgrey {
+    color: grey;
+}
+a.linkgrey:hover {
+    color: -webkit-link;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    font-family: Arial
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    color: white;
+}
+
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+<style name="popupbox">
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: gray;
+  border: 2px solid lightgrey;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: lightgrey;
+  color: grey;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Bree Serif;
+  color: #2E74B5;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+</style>
+<style name="imagegallery">
+.thumbnails img {
+	height: 80px;
+	border: 4px solid #737824;
+	padding: 1px;
+	margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+	border: 4px solid #424D15;
+	cursor:pointer;
+}
+
+.preview img {
+	border: 4px solid #424D15;
+	padding: 1px;
+	width: 800px;
+}
+</style>
+</head>
+<body style="background-image: url('http://bgfons.com/upload/wood%20_texture1584.jpg');">
+
+<center>
+<div name="container" style="background-image: url('https://photos.banfflakelouise.com/wp-content/uploads/2014/07/Above_Banff_National_Park_Aerial_Sulphur_Mountain_Summer_Paul_Zizka_9_Vertical-2048x3072.jpg'); background-size: cover;">
+<div style="background-color: #EAEAEA; width: 1100px;" id="home">
+<br />
+<br />
+<h1>DevM Homepage</h1>
+<div id="slideShowImages">
+    <img src="banner1.png" alt="Slide 1" />
+    <img src="banner2.png" alt="Slide 2" />
+    <img src="banner3.png" alt="Slide 3" />     
+    <img src="banner4.png" alt="Slide 4" />
+ </div>
+<div id="about" style="">
+ <marquee><p><b>Welcome To</b> The Homepage Of <a href="#book" class="linkgrey">www.devm.co.uk</a></p></marquee>
+    <hr />
+    <h2>About</h2>
+    <p>Placeholder text. The quick, brown fox jumps over the lazy dog. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ante sit amet quam porttitor lacinia non nec nunc. Proin fermentum nisi vel suscipit euismod. Pellentesque mollis faucibus nibh sed pulvinar. Integer a lacus justo. Suspendisse semper sit amet leo at tincidunt. Sed dapibus nisi ac tellus cursus auctor. Morbi faucibus iaculis felis, non pharetra eros egestas eu. Etiam malesuada mi sed fermentum dignissim. Vivamus lobortis consequat fringilla.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ante sit amet quam porttitor lacinia non nec nunc. Proin fermentum nisi vel suscipit euismod. Pellentesque mollis faucibus nibh sed pulvinar. Integer a lacus justo. Suspendisse semper sit amet leo at tincidunt. Sed dapibus nisi ac tellus cursus auctor. Morbi faucibus iaculis felis, non pharetra eros egestas eu. Etiam malesuada mi sed fermentum dignissim. Vivamus lobortis consequat fringilla.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ante sit amet quam porttitor lacinia non nec nunc. Proin fermentum nisi vel suscipit euismod. Pellentesque mollis faucibus nibh sed pulvinar. Integer a lacus justo. Suspendisse semper sit amet leo at tincidunt. Sed dapibus nisi ac tellus cursus auctor. Morbi faucibus iaculis felis, non pharetra eros egestas eu. Etiam malesuada mi sed fermentum dignissim. Vivamus lobortis consequat fringilla.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ante sit amet quam porttitor lacinia non nec nunc. Proin fermentum nisi vel suscipit euismod. Pellentesque mollis faucibus nibh sed pulvinar. Integer a lacus justo. Suspendisse semper sit amet leo at tincidunt. Sed dapibus nisi ac tellus cursus auctor. Morbi faucibus iaculis felis, non pharetra eros egestas eu. Etiam malesuada mi sed fermentum dignissim. Vivamus lobortis consequat fringilla.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ante sit amet quam porttitor lacinia non nec nunc. Proin fermentum nisi vel suscipit euismod. Pellentesque mollis faucibus nibh sed pulvinar. Integer a lacus justo. Suspendisse semper sit amet leo at tincidunt. Sed dapibus nisi ac tellus cursus auctor. Morbi faucibus iaculis felis, non pharetra eros egestas eu. Etiam malesuada mi sed fermentum dignissim. Vivamus lobortis consequat fringilla.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ante sit amet quam porttitor lacinia non nec nunc. Proin fermentum nisi vel suscipit euismod. Pellentesque mollis faucibus nibh sed pulvinar. Integer a lacus justo. Suspendisse semper sit amet leo at tincidunt. Sed dapibus nisi ac tellus cursus auctor. Morbi faucibus iaculis felis, non pharetra eros egestas eu. Etiam malesuada mi sed fermentum dignissim. Vivamus lobortis consequat fringilla.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ante sit amet quam porttitor lacinia non nec nunc. Proin fermentum nisi vel suscipit euismod. Pellentesque mollis faucibus nibh sed pulvinar. Integer a lacus justo. Suspendisse semper sit amet leo at tincidunt. Sed dapibus nisi ac tellus cursus auctor. Morbi faucibus iaculis felis, non pharetra eros egestas eu. Etiam malesuada mi sed fermentum dignissim. Vivamus lobortis consequat fringilla.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ante sit amet quam porttitor lacinia non nec nunc. Proin fermentum nisi vel suscipit euismod. Pellentesque mollis faucibus nibh sed pulvinar. Integer a lacus justo. Suspendisse semper sit amet leo at tincidunt. Sed dapibus nisi ac tellus cursus auctor. Morbi faucibus iaculis felis, non pharetra eros egestas eu. Etiam malesuada mi sed fermentum dignissim. Vivamus lobortis consequat fringilla.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ante sit amet quam porttitor lacinia non nec nunc. Proin fermentum nisi vel suscipit euismod. Pellentesque mollis faucibus nibh sed pulvinar. Integer a lacus justo. Suspendisse semper sit amet leo at tincidunt. Sed dapibus nisi ac tellus cursus auctor. Morbi faucibus iaculis felis, non pharetra eros egestas eu. Etiam malesuada mi sed fermentum dignissim. Vivamus lobortis consequat fringilla.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ante sit amet quam porttitor lacinia non nec nunc. Proin fermentum nisi vel suscipit euismod. Pellentesque mollis faucibus nibh sed pulvinar. Integer a lacus justo. Suspendisse semper sit amet leo at tincidunt. Sed dapibus nisi ac tellus cursus auctor. Morbi faucibus iaculis felis, non pharetra eros egestas eu. Etiam malesuada mi sed fermentum dignissim. Vivamus lobortis consequat fringilla.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id ante sit amet quam porttitor lacinia non nec nunc. Proin fermentum nisi vel suscipit euismod. Pellentesque mollis faucibus nibh sed pulvinar. Integer a lacus justo. Suspendisse semper sit amet leo at tincidunt. Sed dapibus nisi ac tellus cursus auctor. Morbi faucibus iaculis felis, non pharetra eros egestas eu. Etiam malesuada mi sed fermentum dignissim. Vivamus lobortis consequat fringilla.
+    </p>
+    <div id="navTop" class="box" style="padding-top: 5px">
+        <p><a class="button" href="#home">Go To Top</a></p>
+    </div>
+</div>
+<div id="pic">
+    <br />
+    <hr />
+    <h2>Pictures</h2>
+    <div id="images">
+        <div class="thumbnails">
+		<img onmouseover="preview.src=img1.src" name="img1" src="banner1.png" alt="Placeholder Picture!"/>
+		<img onmouseover="preview.src=img2.src" name="img2" src="banner2.png" alt="Placeholder Picture!"/>
+		<img onmouseover="preview.src=img3.src" name="img3" src="banner3.png" alt="Placeholder Picture"/>
+		<img onmouseover="preview.src=img4.src" name="img4" src="banner4.png" alt="Placeholder Picture!"/>
+	</div>
+    <h3>Preview</h3>
+	<div class="preview" align="center">
+		<img name="preview" src="banner1.png" alt="Placeholder Picture!"/>
+	</div>
+    </div>
+    <p>
+    Above are just a few placeholder pictures. Please feel free to browse through the above picture gallery.
+    </p>
+    <div id="navTop" class="box" style="padding-top: 5px">
+        <p><a class="button" href="#home">Go To Top</a></p>
+    </div>
+    <br />
+</div>
+<hr/>
+</div>
+</div>
+</center>
+<div id="footer" style="text-align:left; padding-left: 20px;">
+    <p style="padding-top: 20px; padding-bottom: 20px; color: lightgrey;">Designed and developed by: Max, As A Homepage For This Website.</p>
+</div>
+<div id="navBar">
+<ul style="top: 0;">
+  <li><a id="navhome" href="#home" class="active">Home</a></li>
+  <li><a id="navabout" href="#about">About</a></li>
+  <li><a id="navpictures" href="#pic">Pictures</a></li>
+  <li><a id="navbookings" href="#contact">Contact</a></li>
+  <li style="float: right; font-family: Calibri; font-size: 15px"><a href="https://www.DevM.co.uk"><img src="https://i.imgur.com/vBWZNbQ.png" style="height: 20px; width: 20px;float: left;"></img> <div style="float:right;">  DevM Homepage</div><div style="clear: both"></div></a></li>
+</ul>
+</div>
+<div id="contact" class="overlay">
+	<div class="popup">
+		<h2>Section Coming Soon</h2>
+		<a class="close" onclick="window.history.back()" href="">&times;</a>
+		<div class="content">
+			<p>Thank you for your intrest with DevM.co.uk. Unfortunately we are still building the website and the contact address. We apologise for any inconvenience caused.</p>
+		</div>
+	</div>
+</div>
+<script>
+/* This code was copy/pasted from microsoft developers network: https://msdn.microsoft.com/en-us/library/hh920769(v=vs.85).aspx */
+window.addEventListener('load', slideShow, false);
+ 
+function slideShow() {
+   
+  /* GLOBALS **********************************************************************************************/
+   
+  var globals = {
+    slideDelay: 6000, // The time interval between consecutive slides.
+    fadeDelay: 35, // The time interval between individual opacity changes. This should always be much smaller than slideDelay.  
+    wrapperID: "slideShowImages", // The ID of the <div> element that contains all of the <img> elements to be shown as a slide show.
+    buttonID: "slideShowButton", // The ID of the <button> element that toggles the slide show on and off.
+    buttonStartText: "Start Slides", // Text used in the slide show toggle button.
+    buttonStopText: "Stop Slides", // Text used in the slide show toggle button.    
+    wrapperObject: null, // Will contain a reference to the <div> element that contains all of the <img> elements to be shown as a slide show.
+    buttonObject: null, // If present, will contain a reference to the <button> element that toggles the slide show on and off. The initial assumption is that there is no such button element (hence the false value).
+    slideImages: [], // Will contain all of the slide image objects.
+    slideShowID: null, // A setInterval() ID value used to stop the slide show.
+    slideShowRunning: true, // Used to record when the slide show is running and when it's not. The slide show is always initially running.    
+    slideIndex: 0 // The index of the current slide image.
+  }
+   
+  /* MAIN *************************************************************************************************/
+   
+  initializeGlobals();  
+   
+  if ( insufficientSlideShowMarkup() ) {
+    return; // Insufficient slide show markup - exit now.
+  }
+  
+   // Assert: there's at least one slide image.
+  
+  if (globals.slideImages.length == 1) {
+    return; // The solo slide image is already being displayed - exit now.
+  }
+   
+  // Assert: there's at least two slide images.
+   
+  initializeSlideShowMarkup();
+   
+  globals.wrapperObject.addEventListener('click', toggleSlideShow, false); // If the user clicks a slide show image, it toggles the slide show on and off.
+   
+  if (globals.buttonObject) {
+    globals.buttonObject.addEventListener('click', toggleSlideShow, false); // This callback is used to toggle the slide show on and off.
+  } 
+   
+  startSlideShow();
+   
+  /* FUNCTIONS ********************************************************************************************/
+   
+  function initializeGlobals() {   
+    globals.wrapperObject = (document.getElementById(globals.wrapperID) ? document.getElementById(globals.wrapperID) : null);
+    globals.buttonObject = (document.getElementById(globals.buttonID) ? document.getElementById(globals.buttonID) : null);   
+     
+    if (globals.wrapperObject) {
+      globals.slideImages = (globals.wrapperObject.querySelectorAll('img') ? globals.wrapperObject.querySelectorAll('img') : []);
+    }
+  } // initializeGlobals
+   
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ 
+  function insufficientSlideShowMarkup() {
+    if (!globals.wrapperObject) { // There is no wrapper element whose ID is globals.wrapperID - fatal error.
+      if (globals.buttonObject) {
+        globals.buttonObject.style.display = "none"; // Hide the not needed slide show button element when present.
+      }
+      return true;
+    }
+ 
+    if (!globals.slideImages.length) { // There needs to be at least one slide <img> element - fatal error.
+      if (globals.wrapperObject) {
+        globals.wrapperObject.style.display = "none"; // Hide the not needed <div> wrapper element.
+      }
+     
+      if (globals.buttonObject) {
+        globals.buttonObject.style.display = "none"; // Hide the not needed slide show button element.
+      }
+     
+      return true;
+    }
+     
+    return false; // The markup expected by this library seems to be present.
+  } // insufficientSlideShowMarkup
+   
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ 
+  function initializeSlideShowMarkup() {  
+    var slideWidthMax = maxSlideWidth(); // Returns a value that is always in pixel units.
+    var slideHeightMax = maxSlideHeight(); // Returns a value that is always in pixel units.
+     
+    globals.wrapperObject.style.position = "relative";
+    globals.wrapperObject.style.overflow = "hidden"; // This is just a safety thing.
+    globals.wrapperObject.style.width = slideWidthMax + "px";
+    globals.wrapperObject.style.height = slideHeightMax + "px";
+     
+    var slideCount = globals.slideImages.length;
+    for (var i = 0; i < slideCount; i++) { 
+      globals.slideImages[i].style.opacity = 0;
+      globals.slideImages[i].style.position = "absolute";
+      globals.slideImages[i].style.top = (slideHeightMax - globals.slideImages[i].getBoundingClientRect().height) / 2 + "px";   
+      globals.slideImages[i].style.left = (slideWidthMax - globals.slideImages[i].getBoundingClientRect().width) / 2 + "px";               
+    }
+     
+    globals.slideImages[0].style.opacity = 1; // Make the first slide visible.
+         
+    if (globals.buttonObject) {
+      globals.buttonObject.textContent = globals.buttonStopText;
+    }
+  } // initializeSlideShowMarkup
+   
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+     
+  function maxSlideWidth() {
+    var maxWidth = 0;
+    var maxSlideIndex = 0;
+    var slideCount = globals.slideImages.length;
+     
+    for (var i = 0; i < slideCount; i++) {
+      if (globals.slideImages[i].width > maxWidth) {
+        maxWidth = globals.slideImages[i].width; // The width of the widest slide so far.
+        maxSlideIndex = i; // The slide with the widest width so far.
+      }
+    }
+ 
+    return globals.slideImages[maxSlideIndex].getBoundingClientRect().width; // Account for the image's border, padding, and margin values. Note that getBoundingClientRect() is always in units of pixels.
+  } // maxSlideWidth
+   
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+     
+  function maxSlideHeight() {
+    var maxHeight = 0;
+    var maxSlideIndex = 0;    
+    var slideCount = globals.slideImages.length;
+     
+    for (var i = 0; i < slideCount; i++) {
+      if (globals.slideImages[i].height > maxHeight) {
+        maxHeight = globals.slideImages[i].height; // The height of the tallest slide so far.
+        maxSlideIndex = i; // The slide with the tallest height so far.
+      }
+    }
+     
+    return globals.slideImages[maxSlideIndex].getBoundingClientRect().height; // Account for the image's border, padding, and margin values. Note that getBoundingClientRect() is always in units of pixels.
+  } // maxSlideHeight
+ 
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ 
+  function startSlideShow() {
+    globals.slideShowID = setInterval(transitionSlides, globals.slideDelay);                
+  } // startSlideShow
+ 
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   
+  function haltSlideShow() {
+    clearInterval(globals.slideShowID);   
+  } // haltSlideShow
+ 
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+   
+  function toggleSlideShow() {
+    if (globals.slideShowRunning) {
+      haltSlideShow();
+      if (globals.buttonObject) { 
+        globals.buttonObject.textContent = globals.buttonStartText; 
+      }
+    }
+    else {
+      startSlideShow();
+      if (globals.buttonObject) { 
+        globals.buttonObject.textContent = globals.buttonStopText; 
+      }            
+    }
+    globals.slideShowRunning = !(globals.slideShowRunning);
+  } // toggleSlideShow
+   
+  // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ 
+  function transitionSlides() {
+    var currentSlide = globals.slideImages[globals.slideIndex];
+     
+    ++(globals.slideIndex);
+    if (globals.slideIndex >= globals.slideImages.length) {
+      globals.slideIndex = 0;
+    }
+     
+    var nextSlide = globals.slideImages[globals.slideIndex];
+     
+    var currentSlideOpacity = 1; // Fade the current slide out.
+    var nextSlideOpacity = 0; // Fade the next slide in.
+    var opacityLevelIncrement = 1 / globals.fadeDelay;
+    var fadeActiveSlidesID = setInterval(fadeActiveSlides, globals.fadeDelay);
+     
+    function fadeActiveSlides() {
+      currentSlideOpacity -= opacityLevelIncrement;
+      nextSlideOpacity += opacityLevelIncrement;
+       
+      // console.log(currentSlideOpacity + nextSlideOpacity); // This should always be very close to 1.
+       
+      if (currentSlideOpacity >= 0 && nextSlideOpacity <= 1) {
+        currentSlide.style.opacity = currentSlideOpacity;
+        nextSlide.style.opacity = nextSlideOpacity; 
+      }
+      else {
+        currentSlide.style.opacity = 0;
+        nextSlide.style.opacity = 1; 
+        clearInterval(fadeActiveSlidesID);
+      }        
+    } // fadeActiveSlides
+  } // transitionSlides
+   
+} // slideShow
+</script>
+</body>
+</html>
