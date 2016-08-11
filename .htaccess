@@ -1,5 +1,5 @@
 ErrorDocument 404 /404.html
 DirectoryIndex Home.html index.html index.php
 order deny,allow
-allow from 2a02:c7f:bc1a:8b00:283e:b8aa:a62a:7348
+allow from 151.231.240.218
 deny from all
