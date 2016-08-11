@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="container">
+    <br />
+    <div class="jumbotron">
+      <h1>DevM Status</h1>
+      <h3>This is the status page for all subdomains (and the apex domain) for DevM</h3>
+      </div>
+      <a href="http://www.devm.co.uk" class="btn btn-info btn-sm">
+          Go To Main Home  <span class="label label-success">All is good</span>
+        </a>
+      <hr />
+      <p>
+        <a href="#1" class="btn btn-success btn-lg">
+          <span style="color: White;"><span class="glyphicon glyphicon-ok-sign"></span> All Is Good!</span>
+        </a>
+        Main Home Page - <a href="http://www.devm.co.uk">(www.)devm.co.uk</a>
+      </p>
+      <p>
+        <a href="#2" class="btn btn-warning btn-lg">
+          <span style="color: white;"><span class="glyphicon glyphicon-exclamation-sign"></span> Possible Problems</span>
+        </a>
+        Link To Root Hosted File Location - <a href="http://root.devm.co.uk">root.devm.co.uk</a>
+      </p>
+      <p>
+        <a href="#3" class="btn btn-success btn-lg">
+          <span style="color: White;"><span class="glyphicon glyphicon-ok-sign"></span> All Is Good!*</span>
+        </a>
+        Sam's Website - <a href="http://sam.devm.co.uk">sam.devm.co.uk</a>
+      </p>
+      <p>
+        <a href="#4" class="btn btn-danger btn-lg">
+          <span style="color: White;"><span class="glyphicon glyphicon-remove-sign"></span> Site Not Live</span>
+        </a>
+        Status Website (Here) - <a href="http://status.devm.co.uk">status.devm.co.uk</a>
+      </p>
+      <br />
+      <br />
+      <p>The icons are from <a href="http://www.glyphicons.com/">glyicons</a> used under <a href="_license.txt">this license</a>.</p>
+    </div>
+    <div id="1" class="overlay">
+	<div class="popup">
+		<h2>Main Home Page</h2>
+		<a class="close" onclick="window.history.back()" href="">&times;</a>
+		<div class="content">
+			<p><span class="label label-success">All Is Good</span> - Website Fully Functional!</p>
+            </div>
+	</div>
+</div>
+<div id="2" class="overlay">
+	<div class="popup">
+		<h2>Link To Root Hosted File Location</h2>
+		<a class="close" onclick="window.history.back()" href="">&times;</a>
+		<div class="content">
+			<p><span class="label label-warning">Possible Problems</span> - Some Reports Of Getting Too Many Redirect Errors.</p>
+            </div>
+	</div>
+</div>
+<div id="3" class="overlay">
+	<div class="popup">
+		<h2>Sam's Website</h2>
+		<a class="close" onclick="window.history.back()" href="">&times;</a>
+		<div class="content">
+			<p><span class="label label-success">All Is Good*</span> - *Website Is Functioning Normally But Currenly Displays A Coming Soon Message.</p>
+            </div>
+	</div>
+</div>
+<div id="4" class="overlay">
+	<div class="popup">
+		<h2>Status Site</h2>
+		<a class="close" onclick="window.history.back()" href="">&times;</a>
+		<div class="content">
+			<p><span class="label label-danger">Site Not Live</span> - We Are Currently Waiting For The DNS Settings To Update. For Now, Please Use devm.co.uk/status/all.</p>
+            </div>
+	</div>
+</div>
+  </body>
+</html>
+
